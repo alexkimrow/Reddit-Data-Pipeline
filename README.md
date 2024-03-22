@@ -24,3 +24,9 @@ The project follows the Extract, Transform, Load (ETL) process to handle the You
 ## Setup Instructions
 
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
+
+2. **Install Dependencies**: Navigate to the project directory and install the required dependencies using pip:
+
+3. **Run the ETL Process**: Execute the main script to perform the ETL process and generate the cleaned dataset:
+
+4. **Explore the Data**: Once the ETL process is complete, you can explore the cleaned dataset located in the `data/` directory.
