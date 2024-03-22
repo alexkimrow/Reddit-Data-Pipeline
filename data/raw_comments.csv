@@ -1,0 +1,655 @@
+comment,authorDisplayName,publishedAt,likeCount,authorChannelId,commentId
+"EDIT:
+Elon Musk ruined the API part, you can use some other APIs
+
+Here's one of the subscriber built the same project using other APIs - https://chenmeiqiao.notion.site/How-I-Reach-Out-to-YouTubers-I-Like-As-A-Data-Engineer-c37bdddefde54c3789229ffa5a789432
+
+or you can use a static dataset from Kaggle and then use Airflow to process it
+https://www.kaggle.com/datasets/mmmarchetti/tweets-dataset
+
+FAQ:
+1. Twitter removed free access: It still has free access but with limits of requests you can make - https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api
+
+2. You need to request for V2 access: You will get an error but just by reading the doc you should be able to access Elevated Access
+
+
+Worked very hard for this project🤞
+Don’t forget to hit the like button and if you want to support my work you can join channel membership, it's only 59rs per month so that I can keep these content for free",@DarshilParmar,2022-09-20T12:06:19Z,80,UCChmJrVa8kDg05JfCmxpLRw,UgxvA-OXNOTSpB3ZwRp4AaABAg
+Twitter stopped free access to their APIs :|,@swapneil5549,2024-03-22T07:11:22Z,0,UC_hGGJ_caK0D409RNtCRKhw,Ugz2p4RqWrUW2ZNo2gx4AaABAg
+I am thinking in buying your python data engineering course . Will I learn something like this in the course?,@fbravoc9748,2024-03-09T11:50:38Z,0,UCsRdVB3_OUsPBTs23EcFrbw,Ugx-CYtC-RAXornCSzJ4AaABAg
+"Nice video!! What if you have more than one DAG, when you change the airflow.cfg how do you include the other DAGS?? Another question..do you teach about airflow in your paid courses?",@fbravoc9748,2024-03-08T16:32:42Z,0,UCsRdVB3_OUsPBTs23EcFrbw,Ugz_f7XYFb3edygmq2x4AaABAg
+"Hi @DarshilParmar #Darshil Parmar
+
+I am facing a issue regarding connecting to api using tweepy its giving me error of limited access to X api",@TheAINoobxoxo,2024-03-06T05:02:40Z,0,UCVj8sVlIGJaPmjiKh1Q24pw,Ugyu1bGSQ8Wk-lOJNgt4AaABAg
+Why you did manual trigger?,@therajlalrs1460,2024-02-21T17:30:49Z,0,UCk-fc6zwpn46rAiU9rFYBWA,UgzU0_QaJpi7SOB8OiB4AaABAg
+"Thanks Dasrhil for the very educational video!
+I am running into a problem where the password when I execute 'airflow standalone' is not appearing.
+Did anyone face this challenge?",@jdabs595,2024-02-01T15:03:06Z,0,UCz2cbUah2XmiUKGXwJe1DMQ,UgwU3VZgKw7KM1AzhGt4AaABAg
+"🤐I am facing problems in:
+installing airflow on windows
+Specially while initializing database
+....???",@sohaibawan7625,2024-01-20T17:15:02Z,0,UCJmvvwUmEuFFeOe_ndbTSKw,UgzHpMXtxt-i5b5yB8N4AaABAg
+"Hey Darshil, thank you so much for this. Of course I got errors but as you said in the beginning, those are part of the journey. Definitely going to follow other tutorials from you as well regarding Airflow and AWS!",@TehWaver,2024-01-14T18:07:45Z,0,UCtL1B6-fsVjENYFnECX4Yew,UgzhXAe7HaA6MedEr3V4AaABAg
+Great and useful video. Thanks Darshil 🙏,@amirazad1762,2024-01-10T06:05:54Z,0,UC-B1xGp7e_96d3O1Qd9XcmA,Ugzp5a8j0mvo_wmGidh4AaABAg
+Mr. Darshil you have saved a lot of time for us by this video. This video has more content than others talkative videos of other youtubers. Thanku so much,@AshisRaj,2024-01-05T16:54:00Z,0,UCip935SnMHnJZh-T5HSNl5A,UgzkGmMK68t5xTh905N4AaABAg
+"Present twitter free keys are not providing any details,we have to buy subscriptions which is 8000 per month",@dileepkonkena2319,2024-01-03T14:14:57Z,3,UCIrE8rbFu9ysBhoCN3NtCYw,UgwsPr_WteHSyTDHiZ94AaABAg
+do you provide any demo sessions before enrolling in the course?,@udaynayak4788,2024-01-02T16:32:50Z,0,UCpUuUD-gVBubkjn8u09mvKA,Ugy3eRBQC5QFEJff5-d4AaABAg
+"This tutorial has been incredibly helpful! I'm utilizing Docker with Apache Airflow, following your technique to download datasets from Kaggle. Unfortunately, the Twitter API didn't work, as expected. Instead, I placed the datasets inside the Docker container and used Apache Airflow to filter the necessary columns. During the testing phase, I didn't use the AWS channel. I implemented it inside the Docker environment with two tasks: one for processing and the other for filtering (extracting). Your tutorial is truly impressive and has undoubtedly assisted many others as well. You're a champion! Thank you for sharing your knowledge and expertise. @darshilparmar",@Ramesh4f,2023-12-29T16:02:14Z,0,UCflCj7_Bjf-sxLZWiDnYyCw,UgwRcxp_-8NvHwmYvg14AaABAg
+please give me link for the mike you have.. I also need to buy one for my YouTube channel,@AmitKumar-we8dm,2023-12-24T16:04:55Z,0,UCZR0yh49ybD-lOyA58io8IQ,Ugz7qn8MtsZhEz8bh4p4AaABAg
+hi Darshil when trying to run the .py file i got a 403 forbidden error saying i have limited access to v1.1 end point but i see you did not face any such kind of error please help me to fix this,@yashwanthranjith1510,2023-12-20T20:01:25Z,1,UCRScFmKbJ3wuAU6Gyyf9zFg,Ugwg28jsirlh0_OXeop4AaABAg
+"Where is it specified that the created CSV should be saved in the bucket? Is it some implicit functionally of AWS that the python code df.to_csv(""filename.csv"") results in a file being stored in the bucket? Can someone point me towards an explanation?",@willemhekman1788,2023-12-19T14:00:58Z,0,UC9SH7zw3i7rutZj0G8r-dtw,UgzVjAcSegnC3aKx_Mp4AaABAg
+"Airflow is not connecting, getting warning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified.",@gopalrai4491,2023-12-17T05:55:34Z,0,UCbm1iU8FZIqIFcqkM2uJ4PA,Ugz3k1RMGgyQBkXHF9d4AaABAg
+In 18:10 now i understand why we have to be polite in internet. HR will look into this...,@soegrassairsoft5016,2023-12-12T04:33:42Z,0,UCZZJZO90aLwet8wvTm3li2A,UgzR2k2ALjyUgNtlpcB4AaABAg
+"Even after adding inbound rule, My Public IPv4 DNS is not working, please help!",@AnkitDubey-ru9jb,2023-12-09T20:39:24Z,0,UCeHUjcM4k09WxDE_ztzFgTg,UgzpgaxXgp6DCfpFvNZ4AaABAg
+Just jumping from here and there. I cant find the same stuff for Twitter Dashboard. :(,@nikhilchavan1577,2023-12-06T03:09:14Z,0,UCPVm5BArP30w4wBe5kpIF1w,UgyxvFnjibDKKF_hAQV4AaABAg
+"Those who are stuck in the api part can look for some other apis and perform ETL on it too and make your own project.
+Darshil helped us to understand the concepts therefore its not mandatory to use only Twitter api.
+Thanks a lot Darshil :)",@akashsoni7925,2023-12-05T21:36:46Z,0,UC8bXOWAw3XtULliGV4kIJmQ,Ugxeg38qSqpSBi9iIZt4AaABAg
+"I have install docker desktop, every thing is running fine , but in .py file i receive error on ""from airflow import DAG""... can you suggest ?",@SHADABALAM2002,2023-11-30T10:52:12Z,0,UCVaKhz06ilhGwKjHqKXMZrw,UgydFNzQ8jXnp3WWPJt4AaABAg
+"You need a v2 API , it’s $100 a month.",@kamalx8115,2023-11-18T18:18:53Z,0,UCFlpD_h9i_jmPf0On_4aF6g,UgzFQVT2Pz7N2zIAqnx4AaABAg
+"Twitter API now limits the endpoints available, I think you have to pay for this endpoint now as I wasn't able to access it at the 15.25 point in this video.
+
+Just thought you'd like to know",@CrispCotton98,2023-11-15T20:11:13Z,0,UCGilJCIrLTNJzN9oZZUmonQ,UgwbSURRS4szSfqQTGh4AaABAg
+"Hi @darshil Parmar , 
+
+I am getting 403 forbidden error while extracting data using tweepy api. I have followed all steps as shown in your video. Could you help me on this. 
+
+Thanks",@learningwithsarangagoutom7386,2023-11-12T02:31:31Z,0,UCDLxqCZQK5FoMu35Rd6SwSg,Ugz3y5X4yCc-_nMZ5GJ4AaABAg
+Can i use azure instead aws?,@umer_c0des330,2023-11-11T22:11:56Z,0,UC_2c2MqSAooElpW9CDCiCnw,UgwGhs5tXhap5uUhoLl4AaABAg
+"For those facing bad file permission error while connecting to instance, change file permission for the key, using chmod 400 filename on terminal",@skarthik5459,2023-11-06T00:16:40Z,0,UChqiaVi4UauxAJBuD0HFzLA,UgxfOsQzm9XwObUHJo94AaABAg
+"whenever I'm entering the command ""Airflow standalone"" it ends up with an error below. I have tried it in different instances of EC2 and Azure Vm as well and also tried pip install connexion but I always get same error . Can anyone will help me with this
+  
+File ""/usr/local/lib/python3.8/dist-packages/airflow/www/extensions/init_views.py"", line 27, in <module>
+    from connexion.decorators.validation import RequestBodyValidator
+ModuleNotFoundError: No module named 'connexion.decorators.validation'.",@nadirhussain7103,2023-11-04T12:21:46Z,0,UCqIOTBXJpTUa6j7FJRxqzdw,Ugy_a5Qkz9Zz6rQ6uaN4AaABAg
+"This tutorial is nice and I was happy finally I could do end to end project. But I am struggling due to the following error, when I run airflow standalone, I get this error:
+
+  File ""/usr/local/lib/python3.10/dist-packages/alembic/util/pyfiles.py"", line 93, in load_python_file
+    module = load_module_py(module_id, path)
+  File ""/usr/local/lib/python3.10/dist-packages/alembic/util/pyfiles.py"", line 109, in load_module_py
+    spec.loader.exec_module(module)  # type: ignore
+  File ""<frozen importlib._bootstrap_external>"", line 883, in exec_module
+  File ""<frozen importlib._bootstrap>"", line 241, in _call_with_frames_removed
+  File ""/usr/local/lib/python3.10/dist-packages/airflow/migrations/versions/0074_2_0_0_resource_based_permissions.py"", line 30, in <module>
+    from airflow.www.app import cached_app
+  File ""/usr/local/lib/python3.10/dist-packages/airflow/www/app.py"", line 50, in <module>
+    from airflow.www.extensions.init_views import (
+  File ""/usr/local/lib/python3.10/dist-packages/airflow/www/extensions/init_views.py"", line 27, in <module>
+    from connexion.decorators.validation import RequestBodyValidator
+ModuleNotFoundError: No module named 'connexion.decorators.validation'
+
+
+Please help me. I followed all the steps as you mentioned in the video.
+pip freeze o/p:
+ubuntu@ip-172-31-37-119:~$ pip freeze
+a2wsgi==1.8.0
+aiobotocore==2.7.0
+aiohttp==3.8.6
+aioitertools==0.11.0
+aiosignal==1.3.1
+alembic==1.12.1
+annotated-types==0.6.0
+anyio==4.0.0
+apache-airflow==2.7.2
+apache-airflow-providers-common-sql==1.8.0
+apache-airflow-providers-ftp==3.6.0
+apache-airflow-providers-http==4.6.0
+apache-airflow-providers-imap==3.4.0
+apache-airflow-providers-sqlite==3.5.0
+apispec==6.3.0
+argcomplete==3.1.4
+asgiref==3.7.2
+async-timeout==4.0.3
+attrs==23.1.0
+Automat==20.2.0
+awscli==1.29.77
+Babel==2.8.0
+backoff==2.2.1
+bcrypt==3.2.0
+blinker==1.4
+botocore==1.31.77
+cachelib==0.9.0
+cattrs==23.1.2
+certifi==2020.6.20
+chardet==4.0.0
+charset-normalizer==3.3.2
+click==8.0.3
+cloud-init==23.2.2
+colorama==0.4.4
+colorlog==4.8.0
+command-not-found==0.3
+configobj==5.0.6
+ConfigUpdater==3.1.1
+connexion==3.0.0
+constantly==15.1.0
+cron-descriptor==1.4.0
+croniter==2.0.1
+cryptography==3.4.8
+dbus-python==1.2.18
+Deprecated==1.2.14
+dill==0.3.7
+distro==1.7.0
+distro-info==1.1+ubuntu0.1
+dnspython==2.4.2
+docutils==0.16
+ec2-hibinit-agent==1.0.0
+email-validator==1.3.1
+exceptiongroup==1.1.3
+Flask==2.2.5
+Flask-AppBuilder==4.3.6
+Flask-Babel==2.0.0
+Flask-Caching==2.1.0
+Flask-JWT-Extended==4.5.3
+Flask-Limiter==3.5.0
+Flask-Login==0.6.3
+Flask-Session==0.5.0
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==1.2.1
+frozenlist==1.4.0
+fsspec==2023.10.0
+google-re2==1.1
+googleapis-common-protos==1.61.0
+graphviz==0.20.1
+greenlet==3.0.1
+grpcio==1.59.2
+gunicorn==21.2.0
+h11==0.14.0
+hibagent==1.0.1
+httpcore==0.18.0
+httplib2==0.20.2
+httpx==0.25.0
+hyperlink==21.0.0
+idna==3.3
+importlib-metadata==6.8.0
+importlib-resources==6.1.0
+incremental==21.3.0
+inflection==0.5.1
+itsdangerous==2.1.2
+jeepney==0.7.1
+Jinja2==3.0.3
+jmespath==1.0.1
+jsonpatch==1.32
+jsonpointer==2.0
+jsonschema==4.19.2
+jsonschema-specifications==2023.7.1
+keyring==23.5.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy-object-proxy==1.9.0
+limits==3.6.0
+linkify-it-py==2.0.2
+lockfile==0.12.2
+Mako==1.2.4
+Markdown==3.5.1
+markdown-it-py==3.0.0
+MarkupSafe==2.1.3
+marshmallow==3.20.1
+marshmallow-oneofschema==3.0.1
+marshmallow-sqlalchemy==0.26.1
+mdit-py-plugins==0.4.0
+mdurl==0.1.2
+more-itertools==8.10.0
+multidict==6.0.4
+netifaces==0.11.0
+numpy==1.26.1
+oauthlib==3.2.0
+opentelemetry-api==1.20.0
+opentelemetry-exporter-otlp==1.20.0
+opentelemetry-exporter-otlp-proto-common==1.20.0
+opentelemetry-exporter-otlp-proto-grpc==1.20.0
+opentelemetry-exporter-otlp-proto-http==1.20.0
+opentelemetry-proto==1.20.0
+opentelemetry-sdk==1.20.0
+opentelemetry-semantic-conventions==0.41b0
+ordered-set==4.1.0
+packaging==23.2
+pandas==2.1.2
+pathspec==0.11.2
+pendulum==2.1.2
+pexpect==4.8.0
+pluggy==1.3.0
+prison==0.2.1
+protobuf==4.25.0
+psutil==5.9.6
+ptyprocess==0.7.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.1
+pydantic==2.4.2
+pydantic_core==2.10.1
+Pygments==2.16.1
+PyGObject==3.42.1
+PyHamcrest==2.0.2
+PyJWT==2.3.0
+pyOpenSSL==21.0.0
+pyparsing==2.4.7
+pyrsistent==0.18.1
+pyserial==3.5
+python-apt==2.4.0+ubuntu2
+python-daemon==3.0.1
+python-dateutil==2.8.2
+python-debian==0.1.43+ubuntu1.1
+python-magic==0.4.24
+python-multipart==0.0.6
+python-nvd3==0.15.0
+python-slugify==8.0.1
+pytz==2022.1
+pytzdata==2020.1
+PyYAML==5.4.1
+referencing==0.30.2
+requests==2.31.0
+requests-oauthlib==1.3.1
+requests-toolbelt==1.0.0
+rfc3339-validator==0.1.4
+rich==13.6.0
+rich-argparse==1.4.0
+rpds-py==0.10.6
+rsa==4.7.2
+s3fs==2023.10.0
+s3transfer==0.7.0
+SecretStorage==3.3.1
+service-identity==18.1.0
+setproctitle==1.3.3
+six==1.16.0
+sniffio==1.3.0
+sos==4.5.6
+SQLAlchemy==1.4.50
+SQLAlchemy-JSONField==1.0.1.post0
+SQLAlchemy-Utils==0.41.1
+sqlparse==0.4.4
+ssh-import-id==5.11
+starlette==0.31.1
+systemd-python==234
+tabulate==0.9.0
+tenacity==8.2.3
+termcolor==2.3.0
+text-unidecode==1.3
+tweepy==4.14.0
+Twisted==22.1.0
+typing_extensions==4.8.0
+tzdata==2023.3
+ubuntu-advantage-tools==8001
+uc-micro-py==1.0.2
+ufw==0.36.1
+unattended-upgrades==0.1
+unicodecsv==0.14.1
+urllib3==1.26.5
+wadllib==1.3.6
+Werkzeug==3.0.1
+wrapt==1.15.0
+WTForms==3.1.1
+yarl==1.9.2
+zipp==1.0.0
+zope.interface==5.4.0",@siddhisail7105,2023-11-03T04:05:17Z,0,UCK-w9dKVp4EYPtIy1kw_5Xg,UgzQzq-iJJsLucFt1S14AaABAg
+"excellent, thanks for the content",@user-zh9lh4hw1f,2023-11-01T12:27:03Z,0,UCQRi5pBb6_a4FOtwUz1W4LA,Ugz3EZyUsQi4JZm8Apt4AaABAg
+I’ve been trying to go from software dev to data engineering . Idk if it’s projects I need or not touching enough tools on the job. As well as certs,@ikelocc100,2023-10-22T11:52:00Z,0,UCo7aIRqQVegxLNoi-gPufqA,UgxfIVprvDv3f_8QsrR4AaABAg
+"already follow ur tutorial but in the end i keep getting this error when i try to run DAG from airflow ""PermissionError: No AWSAccessKey was presented."" can u please tell me how to fix this. thx !!",@felixtitus8947,2023-10-21T14:36:16Z,0,UCEHyMiMZJhUPikcP-E2rInA,UgxE4GjNDC6-eAkpM1R4AaABAg
+"Wish i found you earlier. i am learning a lot from you 🙂, recommended your channel to all my colleagues that are in data field",@anandahs6078,2023-10-15T22:53:27Z,0,UCQe56tD0DaVeshAAN3pGzTw,UgxDCiKZo9lorKvhFtp4AaABAg
+"Hello!
+
+I followed all the steps to create my EC2 instance but I am still facing issues. After reviewing several videos, I don't know what is happening. I have all ports allowed and I have checked my VPC and SUNETTS, everything seems fine. I installed AIRFLOW on a t2.micro instance (free tier), but when I try to access the DNS or public IPv4 address, I get ""My IP address took too long to respond.""
+
+Can someone help me?",@adrielsalguero7596,2023-10-15T17:32:47Z,1,UC_frsKERe_Z3jFZYJUpWH6A,Ugx8GpLixfTJivR9tbN4AaABAg
+"Hi, is it still possible to create this project with free API access?",@muskanraisinghani5426,2023-10-15T04:51:09Z,0,UCa47WfM5lLs8dZ3hrTLRj2A,Ugyp47RfHt6W1V_oGcd4AaABAg
+"the api is broken, the whole  twitter api is convoluted  mess!!!!!!!!!!! so much time wasted on this bs. twitter api has 2 versions: 1.1 and v2. each version has its own limitations, by-default behavior etc. be careful.
+
+you cant get your own tweets under free tier",@Vilayat_Khan,2023-10-11T01:17:21Z,0,UCdFDjDtG4f5wThA5YX_u4nQ,Ugxf9xMKEgsyo6jAy2h4AaABAg
+"Darshil is just amazing 😊 . Good content! 
+
+Ah Whatever is happening to the twitter API doesn’t really matter 😂",@moeketsekuenane324,2023-10-09T14:04:26Z,0,UCWgn5xHuP2FlXgnm3qRAAZw,UgxrFTlg_RcVRz9YVvh4AaABAg
+Brother we want a full tutorial playlist on data engieering course please make it.....,@rohithatwar4626,2023-10-07T17:32:10Z,0,UCpm78O_HiCjuIHHtHlz-weA,UgyUUTcqe97hOtS_Wsx4AaABAg
+"access_key = ""2YgYzTpTi0RFyRcsLrV3RNHos""
+    access_secret = ""vuw9fnWrzWYJPW1kVEo2FS7KcTu5jmW90DkO6ImGsBBZ3"" 
+    consumer_key = ""902460306793709568-WGgN1ClUClT7EHHJEncuHsQmopdwSR1"" 
+    consumer_secret = ""LxEynM4eZ9Au6LDdTnOUq02ZMkhZtrV9Dmsj0H1GoC5LIZAdOE""
+
+trying this from 3 days not working can u please help in this im beginner",@user-th5ru9hw7n,2023-10-07T15:10:55Z,0,UC34K4xJTj10gDU69ERIze4A,Ugz0YoLDh2UxAsnw_Xh4AaABAg
+How to use airflow bhai??,@user-th5ru9hw7n,2023-10-07T12:18:00Z,0,UC34K4xJTj10gDU69ERIze4A,UgwS9HUVQ1_hplvArQB4AaABAg
+Who else is sad cuz Twitter's API is no longer free?,@mohamedidrissighalmi,2023-10-03T13:57:37Z,1,UCXi1i0n3N9nfNnXrFxwbPCg,UgwzwRn_3moEYacugQZ4AaABAg
+"@DarshilParmar if the data is flowing continuously into S3 , the new added data will be appended to existing file or table or it creates a new file?",@pallybhargavareddy4001,2023-10-01T13:28:26Z,0,UCIIMMgSWyH7nKDSOu2n3m_g,Ugwv5UlZ7_zBB3Xnifl4AaABAg
+This is what exactly whay I'm looking for! Thanks brother.,@bilalhassankhan221,2023-10-01T03:37:17Z,0,UCOjSsrvfctfZgfc2Ff1IDrA,UgzI3Nu37O5X1m22g2J4AaABAg
+"good video, very detailed",@may_win,2023-09-26T11:14:42Z,0,UCXbj9HQre9LNNG7VsMDtoZw,UgysdMlPf1bJrRBOrm94AaABAg
+"Thanks for creating this project, with the help of this i schedule my data extraction task ,currently i am using  solcast API  to fetch weather data .",@chandrakantsingh9568,2023-09-25T18:22:28Z,0,UCuxKNjdVn6-RBwTb-IsaqdA,UgwvKbOl3SM8o0rl2Ot4AaABAg
+can we install airflow locally instead of ec2? and we installed it on ec2,@mohsinrajpoot3780,2023-09-23T18:28:56Z,0,UC7TmxxY3KPXbgKo29KFms9g,Ugy86Fvd2GE6glWX7-V4AaABAg
+great work you helping lot of people.,@mohsinrajpoot3780,2023-09-23T18:16:35Z,0,UC7TmxxY3KPXbgKo29KFms9g,Ugx4LBgVnjykM9dynoV4AaABAg
+You missed the part when you actually create DAG task in airflow at the end of you video,@mohamedte3ima989,2023-09-22T22:30:07Z,0,UC2i8Nm0T_zjQNK0HvBDN9Vg,Ugy_a3iwtd8BAE_wskh4AaABAg
+"Amazing Video Darshil, i really appreciate your video, you are a great professor!! Thank you very much keep doing this great content!!",@mrcrblr850,2023-09-19T21:47:21Z,0,UCvHc6XNejdRIipVjPm11WrA,UgwEUPHtOc1NofJw6Dp4AaABAg
+"Thanks for this content, i couldnt use the api as you mentioned for elon musk😢but instead used beautifulsoup and selenium to get data from imdb, aws and airflow content is🎉
+
+Also going through your data warehouse course, just amazing",@user-xp5ce7nk5s,2023-09-14T23:14:14Z,0,UChoGtMcKT_u0XL7nbApHSBA,UgwhdULZvzF95rfsJnJ4AaABAg
+"when im running airflow standalone, it seem like running but i cant see the username and password, and of course I cant connect to PUBLIC IPV4 DNS, please help me, I cant find solution anywhere",@trantuyetminh144,2023-09-13T15:08:30Z,0,UCEB8OCmMTXWAEoGob6o2wYA,Ugx3hiU8ELjy0RH8wRh4AaABAg
+"Hi darshil, May I know that were we going with the t3 medium in the EC2 instance setup?",@rohitpant6473,2023-09-10T15:47:06Z,0,UCt8LLouJuVyLLzaS6mVk-1g,UgznxMScs7U-LmrzWnJ4AaABAg
+"Awesome demonstration, truly appreciated l, waiting to see lot more soon",@yhsreddy,2023-09-06T06:00:04Z,0,UCvJtfyxT-i3cyx_fdPS5EWw,Ugw1x2MfMtYUnsHy-KV4AaABAg
+"Hi Darshil, was trying to implement the same project but unfortunately. I was prompted with a forbidden request. can you explain to me what the reason might be??",@vuruputuripraneeth4591,2023-09-05T18:58:36Z,0,UCBVHRrb6SsxE77HS4JfCGAA,UgwW-DpPxoChXsG_nyV4AaABAg
+"what the fuck has twitter done to its API???? I cant do anything. Tried v1.1 and v2 api..only facing errors since last 7 hours :(
+edit: well after doing some research i finally got to know that twitter is no longer providing free api. ALAS! onto the next project i guess :(((",@shailendrapratapsingh4967,2023-09-05T13:49:56Z,0,UCz9_o99mx_mZnC1KcgVClLw,Ugxqm4OM5IubqStHCEt4AaABAg
+"I feel like in 12:29 the access_key is your API key , and consumer key is your Access key isnt it?",@thanushramesh2329,2023-09-04T23:24:30Z,0,UCgBViyPoGRwat1ygxKUoIfw,Ugz0KBGdi0aOfADGHyJ4AaABAg
+Great tutorial Darshil.  FYI: I was able to buy a course on your website today. I kept getting an error message when selecting the courses.,@rhard007,2023-09-04T04:48:43Z,0,UCBGca1cSeqBrm699BhhGvFA,UgzQRHISjtTKnhvIynd4AaABAg
+Could you pls create an airflow project using GCP?,@user-xw9vh2qf2z,2023-08-30T09:50:53Z,0,UCEJsrSljMps8l_sarecj5zA,UgyWhq4RqLZBLB0BfCV4AaABAg
+Great videos do more videos,@ravulapallivenkatagurnadha9605,2023-08-27T18:20:21Z,0,UC4qh68WSilJ7fi1Uf10kUSQ,UgwAoe1mZoDYgLOgaWx4AaABAg
+can i do the same project in 1 notebook ?,@shaquibkhan1609,2023-08-24T14:45:47Z,0,UCj_mLmQvYqxmJh0LCfF-XhA,UgxEuLK1dcqY6zA2QrV4AaABAg
+"Will this work with ""X"" ?",@hardikprajapati8389,2023-08-21T18:34:18Z,0,UC9OF07e6S7rpbbi7nF55uKg,UgxUWdPdBrbn-rqniZt4AaABAg
+"I am getting an error - Forbidden: 403 Forbidden 453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level.",@AakarshanJha,2023-08-19T05:17:34Z,1,UC0Tik6a6R8P3aQd-u1NxhpA,UgzIGzN1ae1-N1Od54V4AaABAg
+"getting the below error can any one help:                                                                                                                                                                                                                                                                                             File ""C:\Users\Saliybe\AppData\Local\Programs\Python\Python311\Lib\site-packages\tweepy\api.py"", line 46, in wrapper       
+    return method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Saliybe\AppData\Local\Programs\Python\Python311\Lib\site-packages\tweepy\api.py"", line 414, in user_timeline
+    return self.request(
+           ^^^^^^^^^^^^^
+  File ""C:\Users\Saliybe\AppData\Local\Programs\Python\Python311\Lib\site-packages\tweepy\api.py"", line 271, in request
+    raise Forbidden(resp)
+tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.twitter.com/en/portal/product",@saliyukbenjamin1124,2023-08-13T23:06:27Z,0,UCfINCRa-pt9E11oKoOw0bYw,UgwG6AJegM6Xg6EGW254AaABAg
+"Thank you so much for the amazing content Darshil. I completed this project with a few changes made to the etl since querying the tweets from the API is not free anymore. Wrote an article also on it. Hope you read it when you have some time ! 
+https://medium.com/@nishasreedharan/data-engineering-twitter-x-airflow-data-pipeline-project-25b76ddfbc1a",@nishas3527,2023-08-13T15:40:54Z,0,UC1cqaRF_nyV2lW46AjO2wIA,Ugw6fiLNloveRTzRsPN4AaABAg
+"There needs to be an update on this specific project because as per twitter no longer provides api with  ""elevated"" access to read tweets, likes, comments etc . need an update with current api norms.",@akashmahapatra,2023-08-05T10:28:37Z,2,UCG8GQhYirq5mskRn4nWuhpQ,Ugze75ialcQtXfi6K7x4AaABAg
+not able to access it in the free version,@soumyosanjitmohapatra6552,2023-08-04T12:33:56Z,0,UCLDNutWtNme5kV7K8iCxjtg,UgxkOcD7n9u7U3WHNzZ4AaABAg
+"hello,  tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level.  why do you think i am getting this error thanks in advance??",@ayhancagan2970,2023-08-03T19:00:07Z,1,UChcYnAt8wPgfCmTQ34yUo_A,UgytP1goYUAmvHolAsp4AaABAg
+hey now i'm not able to get these keys from twitter,@SumitSingh-ps9gu,2023-08-03T07:03:26Z,0,UCsHP4xL4avOMkDzO_7A7K-A,UgzKB7EX9XPUXDRYnr14AaABAg
+Hey @Darshil Not able to see my task inside my dag,@BhanuKumar-xz3fr,2023-07-31T13:36:09Z,0,UCg0WyYGEWbCYQzdl9B0HzEQ,Ugx78YG_PwkkLPIeqqd4AaABAg
+fantastic video! It will be great to see how to integrate hugginface (gpt4all) with spark and airflow.. there is nothing out there yet...most people are using duckdb but for big projects spark is king.. I would buy a course on that if you decide to create one..,@fabsync,2023-07-30T09:37:27Z,0,UCPoGNV8VARlsk0I8xC13PMg,UgzddcJvCG2K4wJRfvt4AaABAg
+Amazing...got to know something intresting. Thanks for the detail explanation.,@avshekraj,2023-07-29T12:21:37Z,0,UCIgcFJL9RWszxSb8NXYNyxg,Ugxd1F-VKYtvTtwcOPF4AaABAg
+"Looking now at the API erros and now tweet history which cant be now extracted Is this project ruined for beginners like us ?
+Which next project can we move unto which isnt ruined and is okay for beginners?",@prajwalawasthi1053,2023-07-29T07:42:57Z,0,UCadJOzTMAwS70G1vFz6cxbQ,UgwARTUruqkTfHHX9ux4AaABAg
+"hi
+ I am facing an error while starting airflow standalone, it stops in the middle. any suggestions??",@jiitstudents8248,2023-07-19T13:14:32Z,0,UCYl4YIBlYuQpK2XPVRgPW-A,Ugx045lmxpedZV3Az5l4AaABAg
+Can i do it with pyspark on python and rest things is same,@SlicerJi,2023-07-19T11:35:12Z,0,UC2Avuy1XGWHKGkpG5dpCD7w,UgyOQ9K1i8t7VUTJiBx4AaABAg
+good work ❤,@sonalsingh7040,2023-07-16T20:55:35Z,0,UCJdjRRRpJ6LWKhJuiFmqOZg,UgyHFrSt_DBYwuz51Hx4AaABAg
+"Looks like we can only use V2 free basic version of tweepy using client but even after I use it, it still gives me error 403 forbidden. people are saying we can request for elevated access but there is no option of it.",@gaganaulakh41,2023-07-14T09:40:18Z,0,UC03uVk4c38f9WqtyzOBusxg,UgyqxTaeLU7mP6AwoEN4AaABAg
+"Hi @darshil , 
+i am getting this error tweepy.errors.Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level, can you please help",@sumitavapl,2023-07-09T12:54:54Z,0,UCIMioqrhXbTHyMxYbpVTlSg,UgxQ-ziYZW2pLipzQoR4AaABAg
+Thanks for the video!,@sohailhosseini2266,2023-07-09T07:17:35Z,0,UCP9b7YSH7JbtI4Wbex49D6w,UgxSkYeISBLUJ-aRt-h4AaABAg
+"Super practical, valuable tutorial. Thank you for sharing, sir.",@namvu607,2023-07-07T03:07:25Z,0,UCqxwcXKS9BdmwywKaDm3B0Q,Ugw7XoKDw-pv-Predx54AaABAg
+Perfect Explanation  .. keep it up .. thank you 🙌,@ashishveer4591,2023-07-04T17:21:49Z,0,UCi4IRANno0suVsuPvI-Tk9g,Ugwja7hpgpVsE7G4bLp4AaABAg
+Very clean and understandable 🎉,@cheedellagupta1459,2023-07-03T22:14:40Z,0,UC52Rw-zYQZC3IVLUuS_7xjg,UgwOuX3J4ugkeBt6Pmp4AaABAg
+"Darshil, thank you brother for the video. Very informative. I have a very curious question. So this tutorial is for Beginners. What are the components that will take for example the same project you created to an intermediary level and then an advance level? I would to hear your pov.",@xXWillyxWonkaXx,2023-06-28T20:49:15Z,0,UCyos11O5UzdwWsnm30m07Kw,UgxQSWIwl9yADVS3x8N4AaABAg
+"Great tutorial, appreciate it, keep up the good work brother. :)",@jeeteshkumartiwari7389,2023-06-26T08:43:26Z,0,UCI4MsPe6hMeHq5hyaxggE_g,UgxyFFV0TYzCCK0qRrV4AaABAg
+Hi im repeatedly getting the 401 anauthoriuzed error although I've regenerated the credentials so many times,@prajeetkatari3742,2023-06-25T05:43:46Z,0,UCQ7I9DCF87-3UbqxsquRFhg,Ugy22ldxUjlFjuXFq_x4AaABAg
+Can we do this using MWAA?,@shivsuthar2291,2023-06-22T05:03:27Z,0,UCpnjGeQFxAf32bKGhplfUkw,Ugyfv2nZvwTdzcoKnAJ4AaABAg
+"Hello! I was trying to follow this project but unfortunatly the new free tier twitter api has a lot of restrictions And when I tried to retrive our friend elon twits I always get a forbidden error, as result I was wondering if there is another api that we can use to get the first part done
+
+Thank you!",@minsau2,2023-06-20T16:56:57Z,1,UC9LcrHw6eh-Yf3j9mZ5O2mw,Ugw97VQSArlbBfT5cjB4AaABAg
+"Hi, when i am trying tto print the tweets the code is giving me this error can you help me 
+error:tweepy.errors.Unauthorized: 401 Unauthorized
+89 - Invalid or expired token.   even thought i regenerated my tokens then also it is showing me the same error and yes i used same code as yours....kindly help",@sathyajain1252,2023-06-18T19:16:42Z,0,UCN4a7obT-Rh3hM3dIOXU6Pw,UgzwFwazTJ68fN-L-oB4AaABAg
+great video. Thank you,@maheshbhatm9998,2023-06-17T15:25:11Z,0,UCOkyU2C9Nbn0PPZmPs-BilA,UgxekTGEErAUQzRXFr54AaABAg
+"Hi darshil, thanks for such nice content and project. However Twitter API is not free as of now, can you suggest any alternative for that. Thanks!",@animesh5454,2023-06-17T09:10:21Z,0,UCucANWsdRS0sbmDoVDJbUAg,UgzCzlimGgcaLgshSmp4AaABAg
+before starting this you should know that the twitter API is no longer free on this endpoints,@jsat8378,2023-06-16T11:16:27Z,0,UCw4N2gyToBVgfLSx_sfKczA,UgwPRVnUcCMQrYkyXI54AaABAg
+Thank you for the video. It was helpful.,@ini_affiah,2023-06-15T15:50:26Z,0,UCq1bXYOBhhYUyh27nQVsAyA,UgxeaSSe6pHFmgwQ_Pt4AaABAg
+Unfortunately it seems twitter does not allow these for free anymore. anyone tried recently ?,@MRP-em2fz,2023-06-15T15:38:31Z,0,UCxc8xYJOcpzLYVJs0rqJoog,UgwI0_ccFRjs_hbKelx4AaABAg
+Did something change with the API? I get a 403 forbidden error when I try to run the tweepy.user_timeline function.,@bharathsankaranarayanan,2023-06-11T19:46:54Z,1,UCipajcCDwre33UVYM3XymMQ,Ugx05CCtzXPJ5vfaQkd4AaABAg
+"It would be possible to put all of these sudo commands into the User Data, so it runs when the Instance is started?",@Vinitesa,2023-06-10T05:16:40Z,0,UCSxdgyZSuwK-4eFdmWnlnRg,UgxaVA2CUb-wMFYuftN4AaABAg
+"i had an issue Forbidden: 403 Forbidden
+453 - You currently have access to a subset of Twitter API v2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: when I tried to print(tweets) at 14:27 of this video 
+I used a free account, so I just had 1 environment, do you know if this is the reason for the error? thanks",@TvsCar30,2023-06-07T09:19:52Z,1,UCcyNaEhBquLk6C4ckAjm-6w,UgyPxqoaZYaZZPG93954AaABAg
+the api wouldn't let me request data by this code and many other codes it gives me an error 453 telling me I need to upgrade to v2.0 but I have a project created already and am authorized to request user timelines idk what is happening,@jayantbishnoi9617,2023-06-06T14:05:21Z,0,UChNgXXm6TL1kVDPGZ6dbUKw,Ugy0ODfr5f9Ys0z8K_t4AaABAg
+👌👍,@anuradha6892,2023-06-05T10:19:24Z,0,UCVd5THdptTIv285LiKnj_NQ,UgxOLi4TaDjHxAIVDR54AaABAg
+"Since twitter API access is limited now, it would be helpful if you could simply provide us the dataset you extracted. Thanks!",@user-gm1ux4oz9k,2023-05-30T19:40:52Z,2,UCyeDHs57-IcYNgUkzCZeIQA,UgzrahnqmJk7ddQOjG54AaABAg
+I think Twitter shut down their free public API 😭😭😭,@mostHumblePersonAlive,2023-05-28T02:21:14Z,0,UCMf4MhhGIubzdrL7k7noRrw,UgxrJdK9RI5QWcdB1cB4AaABAg
+Very crystal clear 🔮 explanation 🎉,@channuangadi7504,2023-05-27T17:24:41Z,0,UCdfRw9R40nsJu9cbm8sCd7g,UgyGGn6Io98smPBcytx4AaABAg
+"Now with the arrival of ChatGPT, even though one can generate CODE without analyzing all these, it is always better to understand the logic, nuance and intricacies of CODING.  This vid helps a lot in deconstructing this step-by-step.👌",@Cosmos1987,2023-05-25T06:00:58Z,0,UCsCdRpxfqZKjOqFHyvzvDgQ,Ugxq5vp4XViATHH5liZ4AaABAg
+Thanks for teaching basics of air flow and Dags..,@gimmestonks5333,2023-05-23T15:20:37Z,0,UCUUcKIfn_dc5eAZNWxSHftw,UgwCvbKUN50CrB3Z1Nx4AaABAg
+"Anyone else getting a ""Broken DA:  [/usr/local/airflow/dags/etl_dag.py] No module named 'airflow.operators.python' error?",@Myhands14,2023-05-22T23:30:27Z,0,UCeIJ09je38xGjzcOX55yzYQ,UgxZVwixDdvl2vZOp-h4AaABAg
+"one of the best tutorials I've ever seen on Youtube, a real-world example that was really interesting",@faramarzzrn,2023-05-20T13:50:55Z,0,UCxQJJR3VVzP8uCrQfC6r0yQ,UgxHQNw5AGdapYezUjp4AaABAg
+"Hey Can you please help me this error.. 
+453 - You currently have access to Twitter API v2 endpoints and limited v1.1 endpoints only. If you need access to this endpoint, you may need a different access level.",@shubne,2023-05-20T08:24:19Z,2,UCgpuLJt3YzXvpbChubXXhqA,UgwmbK5hWwm8frLOcm14AaABAg
+thanks for sharing info - A step by step guide,@AjaySharma-jv6qn,2023-05-20T03:14:13Z,0,UCZXrL4JXE4TwxkASp9tIlNg,Ugz0DEMo5EHqunKKYMt4AaABAg
+"Thank you so much for making such a helpful video. you explained it very well. This is very helpful for beginners like me. 
+will you please guide on how to install Airflow & Docker on windows system ?",@MeetMalli,2023-05-19T19:14:47Z,0,UCOtqzoMGgIkZ1q9Ji2Yiicw,UgzSB3FtaliM3an9sWh4AaABAg
+Twitter API not free anymore..bummer,@oliverthomaschewski120,2023-05-19T12:11:20Z,0,UCB83U3dovXOuH18DDM8MPCw,UgzeBTheCmPiUiHhd994AaABAg
+"Hi, the video is really cool, 15:44 i made a mistake like this""tweepy.errors.Unauthorized: 401 Unauthorized
+89 - Invalid or expired token."", can someone help me",@linhtuan8603,2023-05-17T11:03:30Z,0,UCwl4Oo9QL-odO9pGbRGt2tA,UgzsBkhEZXsEIUBH6dV4AaABAg
+"Great videos, Darshil! Also a side note, I often watch YouTube videos at 1.5. Yours feel faster even at a normal pace. :)",@turquoisetravels,2023-05-15T03:13:39Z,1,UCuQ00YR8V0B-qq7wtCCoN3Q,UgzRFutkYHrSzmRyDvp4AaABAg
+"Now this is some real world step , rather than ""intro to numpy and pands""",@heythere7528,2023-05-12T19:09:32Z,0,UCsMcqhCWF89izU_Acz8DABg,UgzpvsPkGFFTJVlz6s94AaABAg
+"Hi Darshil, I am not able to get free API from Twitter. I read an article where he says that Twitter stops giving free API, is it true? because they are charging for API. Can you please confirm Darshil? Anyone facing this issue",@shubairabbas5480,2023-05-11T11:58:50Z,0,UCnPQT9X9IwgBBIg_YJ_FT9Q,UgyYyuXhg9oFTK_8FQd4AaABAg
+"Hi
+There is no option of 'Elevated access' as of now. There is only Free, Basic and Enterprise. Basic is paid and Enterpirse is for a company. Is there any workaround this?",@fawaz8850,2023-05-10T03:30:17Z,1,UClHX2sTZ0JoZ5Cz4q7in9Yg,UgwZQZfpJt46LXaWZsJ4AaABAg
+"Hi darshil you are doing a great job,have to request you to create some projects around Databricks and synapse in Azure. We all are waiting with desperation. Likewise AWS,Azure is also hitting popularity and companies ask more for Azure Data Engineers. I know you are very busy creating other playlists. But it's a humble request to create only 2-3 Data pipeline projects in Azure. Those who wants #Azure#Data Engineering. Please hit like so it came at top and Darshil got to know.
+Super excited for that series🌟⭐",@shubairabbas5480,2023-05-09T18:35:15Z,7,UCnPQT9X9IwgBBIg_YJ_FT9Q,UgxU9dxnBHjejz0KcgB4AaABAg
+"in 12:02 where can I get the access_key, access_secret, consumer_key and consumer_secret ?",@souhailf1796,2023-05-09T16:08:24Z,1,UCRUdNttq-XqUoDgLaxZ1n9g,Ugwd-BItK__Icib2gD54AaABAg
+"Error: Apply for elevated access via the developer portal.
+Is Twitter now charging the users for elevating their API access level?",@LilPetChronicles,2023-05-08T18:40:09Z,0,UC-0P4kUkyzBVE-ojgE_-X8A,UgxeV8thStel96MG-p54AaABAg
+"I  find it worthy to join a youtube channel membership for the first time. I hope with smart and harwork from myself and your help, I am able to land a Data Engineering job soon.",@delelinus2129,2023-05-05T16:45:32Z,0,UCHH0WvoIkfxLq1NwrABerQw,UgyFsbjlSpIk9Ooh39R4AaABAg
+Real content is finally here ❤ Loved the tutorial.,@apoorvpandkar,2023-05-04T14:42:16Z,0,UCPa1axWQ6kpXaInp3xWlHUQ,UgwUnrf9RgPeKDI75d54AaABAg
+Wanted to try this but Twitter seems to have shut down free access to their APIs. Top Content though!,@ajaydhungel7883,2023-05-04T03:36:42Z,0,UC_9Mwjy7ymXU92mGP1QiDrA,Ugwu_S1xdP1w_DuZJuV4AaABAg
+"anyone got stuck in step accessing to airflow, I follow Darshil steps but still got stck",@phuocvuhoang3606,2023-05-01T20:13:26Z,0,UCZC73eCxSqY36iH5arVfWSA,UgzJU_YDl3ScXkJ74uB4AaABAg
+Mentor of many data engineer ❤,@user-yd6bq3kr3g,2023-04-30T19:43:29Z,0,UC46n_fbPuQvrNl7WPzmC9NA,UgwPRV-0AUtsdKb0Ayt4AaABAg
+"Nice work , Keep it up ! Try to code & run real-time business usecases to make it more interested for learners.",@jayantsande,2023-04-30T11:30:06Z,0,UCofSTVfwgLNKXceQO8J9PzA,Ugx6pVtTcZ0VJ6XcbhF4AaABAg
+"Thank you so much! I encountered some issues along the way, but was able to resolve them!",@reypaulobae4895,2023-04-27T08:22:37Z,0,UC4myKR0Go3TuuPDalW3YoVA,Ugy5eFCb-jB50jEnxcJ4AaABAg
+Thank you so much,@PinkuKumar-ro8bw,2023-04-23T05:47:39Z,0,UCDQMeIkHUt0mqBnsn92Z1Zw,Ugxge5aiMdbc4zF4DSF4AaABAg
+Cant we copy the python scripts directly to folders in AWS intance?,@subashkonar13,2023-04-18T09:40:16Z,0,UCfUsKH2tHilzkNYn_rXRfDg,UgxZDzKrVyRhxBvDy-B4AaABAg
+Thanks for this great hands on Project. Can you try doing the same in GCP or Azure? Thanks,@cellentmaya1533,2023-04-18T08:02:11Z,0,UCm80Sggrm2ypn0tan-AcxaA,UgxjxPT0OYVg1cQ2LZF4AaABAg
+"great content
+Thanks Darshil bhai, very cool",@realsrvbhtngr,2023-04-12T17:09:38Z,0,UCJLE0AFz3pZMTfKi-CmCiwQ,Ugy8I7XOUMcKXqp8G014AaABAg
+"This project is now impossible to implement for gareeb, berozgar people like me :)
+Thank you Elon",@realsrvbhtngr,2023-04-12T17:08:34Z,0,UCJLE0AFz3pZMTfKi-CmCiwQ,Ugw_tN10oVjVO-ijTl94AaABAg
+Very Nice Brother,@nafeesraza1970,2023-04-12T12:10:17Z,0,UCB8MDUifUBgTBSIql0sCRAQ,Ugy38qIhoBKkgioa-D94AaABAg
+finished watching,@sandipansarkar9211,2023-04-09T18:23:21Z,0,UCsv3z2j4tRDgfu5dj2e705g,UgwfjpThmXsZ2HJfYjJ4AaABAg
+Very informative and practical video. Thank you for making a video 😊. Waiting for advanced level video on airflow.,@KK-rh6cd,2023-04-09T10:50:16Z,0,UCSpOwWOP3OaQKYlNlU_ow3A,UgxZZz0mDXrfP785OyB4AaABAg
+You are best bhai ❤️,@pradeepdhanola1327,2023-04-09T03:36:26Z,0,UCTeE6mBl37t0iTPdEqKpYJQ,Ugy2wH_h0a-T-jsPUj14AaABAg
+instead of visual code can we write the python code on google collab as I am more used to it.Please advise,@sandipansarkar9211,2023-04-08T21:46:08Z,0,UCsv3z2j4tRDgfu5dj2e705g,UgwjyRMBkmjYSnoByo94AaABAg
+Thank you for your time and effort to make these videos. Really helpful.,@karunakaranr2473,2023-04-08T21:13:19Z,0,UCZ8xIC_Wv3F9u7UHspDEVwg,Ugzc803AQhUuWGFhDLN4AaABAg
+"im practising this code in jupyter Notebook ,while executing this i got a error : Forbidden: 403 Forbidden
+453 - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal.
+Can you plz guide me about how to solve this?",@dnyaneshwarshelke7425,2023-04-08T01:30:28Z,0,UCdAMETy1DFzCeyBubSYHH5w,Ugx-asEss4p5u5geLI14AaABAg
+Please Make more videos on apache airflow Dag,@pankajsuryavanshi8332,2023-04-06T04:06:57Z,0,UC8L8XXTRZagEo_2aMUfq8wA,UgxmiUkFiNvx5rhLpu14AaABAg
+"I created the instance but  not able to connect to 8080 port.
+Did everything mentioned in the video",@secretguy7795,2023-04-02T13:29:42Z,0,UCewdrHky93WQBHMXKwQnmPw,Ugy3UsBIZYvd2eO-biN4AaABAg
+Appreciate the content. Cleared the basics by watching it.,@_strollingaroundtheworld_,2023-04-01T21:24:51Z,0,UCgVNz7Td8RIUD1AZL_r-mbQ,UgwG6i68_TnGsktg42Z4AaABAg
+I tried to get the access of twitter Api but unfortunately I didn't get the access of developer portal. Can anyone help me. if some one also facing the same issue also drop the comment below,@deeputiwari1415,2023-03-30T16:21:51Z,0,UCSfyxoBq9aGQ6L4WQHQP3EA,UgxHFiXmTkyk1I96s2B4AaABAg
+thank you very much😀,@shreyagrawal3806,2023-03-30T10:08:35Z,0,UCQCzQ_9pAc37KvuHc0wU8zQ,Ugxka5JHJJ_4Cjkvs0x4AaABAg
+"Great! Got broader understanding of api, airflow and aws. Thank you!",@manuprakash1989,2023-03-29T10:46:55Z,0,UCOH2na4qAK8_1rkl4GDyNaw,Ugxz87caqjGOqh9fiz94AaABAg
+I watch u everyday ✨ and working on my skills to became a Data engineer 🙂,@Duniya_Daari,2023-03-22T11:20:57Z,0,UCVSzyd6XX7A8ThdtFETt_6A,UgzcQg7lzhSITXSk5MJ4AaABAg
+how to display twitter api dashboard? Please help me.,@toannn6674,2023-03-22T10:01:50Z,0,UCBWOoKCPNhfcGw8zNHuc16Q,UgzLgVgujKrH71q46oJ4AaABAg
+This is so impessive. Keep up your good work. I wish for a true success in your life,@shahriarentertainer4749,2023-03-22T05:57:49Z,0,UCbZWSeGvq1zrWlVX4sfJ9Aw,UgwfVLWbQiEbuhcal7J4AaABAg
+"+1 subscriber
+excellent....",@eshwarsai5027,2023-03-04T12:16:15Z,0,UCkXtpwi1AF-q_bbjiu4LkFA,UgwxVLdtPbyR9Kvepxt4AaABAg
+Thank you so much 😇❤,@aishmash5325,2023-03-03T14:05:01Z,0,UCwMyfTZYrju5lgtA4yv3JjA,UgwdrMt1xaIdnBEH7pR4AaABAg
+"I got this error when i tried to upload the file to s3..
+An error occurred (AccessDenied) when calling the PutObject operation: No AWSAccessKey was presented
+Can anyone direct me?",@way2prosperity,2023-02-28T10:20:45Z,0,UClBUoACje55kzltXNHHHPdw,UgxAjqzPMat2ZEKt62R4AaABAg
+Are the developer portal rules changed in twitter? Because I found out that my application is pending and they will let me know the update,@amarsk-ce9zj,2023-02-22T18:36:06Z,0,UCVik85uCiHMXdccR0C_Xknw,UgxFxenFm50Lko2tqr94AaABAg
+"Important thing to note:
+Apache Airflow requires min. 4GB of memory hence free trial EC2 instance won't work.",@ahsanehtesham,2023-02-15T11:41:55Z,1,UCDdvtCYlHpAKLatnVMwo6pA,Ugyzztw23M26wGWruER4AaABAg
+"Well done.... I'm finding it difficult to get twitter api, pls assist",@wonderswonders8772,2023-02-11T23:26:50Z,0,UCay7Y9_Apq4pCu20bhiUGpA,Ugx_c4atnThJ0bDJIWN4AaABAg
+"thank you sir, But can you do a tutorial to change from sequential executor to celery executor ?",@mauludinrohman6177,2023-02-04T15:00:37Z,0,UCGoFtkwRRCutcJIusLM7xNw,UgyQvjDmHTKwaqz77S94AaABAg
+Recent changes to twitter API i think .... Apply for elevated Access if you run into issues. By the way Great content Darshil,@vinodgujja4268,2023-01-29T05:53:28Z,3,UChRuaMOL0itl2nSRoE8qj6Q,UgyvHTgsVJ7EElZ7xAt4AaABAg
+Your video was really helpful. Thank you very much,@africarising360,2023-01-27T20:44:35Z,0,UCnWN5pkPulmMEfZMw2c7PPQ,UgxsFqzlwldAh1To9ud4AaABAg
+"@Darshil Parmar I do get lost where you switch screens between Visual Studio and the other one. Also, I am doing this on Colab Notebook, how can I view the data in a Platform like yours. I have written the code always the way to the first half where we can see Elon Musk Tweets, but on my end I can't find the tweets even though the code is correct and running",@jamesosewe7296,2023-01-26T22:09:00Z,0,UCx06Kzxn3Kr4YoUn3hyVfhg,Ugzy5ojkOcR12AG5OWN4AaABAg
+Thanks for this good content,@healthyhome-padhu3105,2023-01-22T02:34:35Z,0,UCubpg2N_W6jiNTLwFzt0IeQ,UgwWWl_ijDzno5Pks_x4AaABAg
+"I am getting tweepy.errors.Unauthorized: 401 Unauthorized
+I have already tried new tokens and resetting system clock.",@ooossssss,2023-01-20T09:33:39Z,1,UCo-uGlNwYASU1VLgNudkxSw,Ugxsr3voKe_WxEBsKTV4AaABAg
+PLaylist of beginners projects like this? I have to do the same but instead twitter I have a postgresq database,@jhoanmartinezsilva2609,2023-01-18T19:21:16Z,0,UC8puVwddCQnSz5RBZLFrQTQ,UgxFNLnR5w7OOkAcZwJ4AaABAg
+Can't access twitter developer account due to its service operator not working :(,@rishabhkaushik2468,2023-01-18T15:19:10Z,1,UCfnQG1h0Svdah8fXYchZYJQ,Ugxh1h9AJzE2bpu3Qa54AaABAg
+"So what should we do if not allow all trafic to make it work ? Because you said it is a bad practice, but not what was the good practice ^^",@FRUXT,2023-01-18T14:25:54Z,0,UCYQQoz61Z_0_w_s1cWxaC5w,Ugx959zPh6Y8zvfJS2N4AaABAg
+"there are lot of errors when executing this project , really badly stuck",@alex45688,2023-01-18T03:26:14Z,0,UCFiIN52XPIadibiBRHpshYw,UgxQ77xFPnZo4ikJ-OV4AaABAg
+how from airflow import dag is not showing error on vs code ???,@avanishyadav3705,2023-01-17T08:42:26Z,0,UC9FiZVKegTZ_NWxxawoSCLw,UgzWOMN5UEPaGPFgBF54AaABAg
+Awsome brother...Loved the way to teach...Hoping for detailed projects.....thanks a ton brother.....,@shaikusman536,2023-01-17T07:15:01Z,0,UCNFciUah7K0gf_QObCzDXtg,Ugz_Ii4ZYIBIxhuL5994AaABAg
+clear and concise content!! Great!,@siddhantkhanna9053,2023-01-17T05:36:24Z,0,UCBQLmLWbPTh6z7SAlqxcYhw,UgzM49li3OSut3R9a114AaABAg
+"This was a very helpful video for me. I have spent the last year learning web development, and I am expanding my skills to include ETL. This video gave me a great overview of the process.",@owennowakowski7558,2023-01-17T00:38:26Z,5,UCCmouOGnYLYaOyMLCBsBYxw,UgzQFZINQtwEhoXG7dZ4AaABAg
+"For those having issues with Tweepy and Twitter api versions, try the following code:
+
+client = tweepy.Client(bearer_token=bearer_token)
+username = # your chosen account to get tweets for
+account = client.get_user(username=username)
+tweets = client.get_users_tweets(id = account.data.id,  max_results = 100, exclude = ""retweets,replies"")",@denisebby1895,2023-01-16T23:53:28Z,3,UCMBM8Tbvp-LQO_PAHGbJ7HA,Ugxq96WSX6gfE6NCUw54AaABAg
+"Although I do exactly the same as the video, I'm still unable to connect to the airflow webserver at port 8080 which is deployed in the EC2 instance. Anyone meets the same thing? Can you show me what to do :<",@quocnguyeninh32,2023-01-13T20:53:47Z,1,UCShQCcKPxmZ6t4cdIh4n-7Q,Ugxg55U-zUwJil_h1f54AaABAg
+"thanks for the explanation darshil! but it still hard for me to understand all of this, espescialy the AWS related part, i understamd the python code but still not easy to understand the aws cloud",@pythonmathui3057,2023-01-07T10:21:06Z,0,UCbsBRszGU2erCDiZzdb5SAw,Ugwwb0zB59L8k1LC8kx4AaABAg
+"When I use the airflow standalone command in the terminal, the link from the Public IPv4 DNS can't be reached. I get the following errors in the console ERROR - Triggerer's async thread was blocked for 0.60 seconds.  ERROR - No response from gunicorn master within 120 second.ERROR - Shutting down webserver. 
+What is this caused by and how to fix it? I am doing everything according to the video",@studioTIMI,2023-01-06T22:16:06Z,0,UCI0BDUeM-ufr8UPwGC-J06w,UgyyYA3oR-zlKLTGvIR4AaABAg
+for the security group if add a custom TCP rule do we just have to open port 8080 to our local ip address?,@lilbean_eth,2023-01-06T04:02:13Z,0,UCI1yWP6RryayDGzdxdcn6lQ,UgyObjvbt1zP_xg5RVl4AaABAg
+With user-timeline deprecated it would make sense to update the video with V2 ApI,@u-shah,2023-01-04T18:20:57Z,1,UCejOGWAf1wI4GBQ54VLwrEw,Ugw27c5minpxB0_jXMV4AaABAg
+I ran airflow standalone but couldnt get admin username and password,@kareemrasheedbabatunde9026,2023-01-02T04:38:33Z,0,UCVhx2dHBOObrXuG6EY2iirw,UgxYpQt-KpBNSk3yqNd4AaABAg
+I have been following u for a long time now I don't even look at others videos......u r just great ....keep up the great work,@lylabata6813,2022-12-30T20:57:56Z,0,UCXBx0mwG_b5KwMkzIsSGyeQ,UgxOVdVfImV_SWRNKy14AaABAg
+Disclaimer : *airflow doesn't work with t2.micro*,@carti8778,2022-12-28T18:39:34Z,0,UCkgT4j10qwriQmmxp1Ebzhg,Ugy0Z3RFnAaELuX9OKN4AaABAg
+i love it <3,@hienhoangtrong5865,2022-12-26T15:42:10Z,0,UC9W0bld_ix1B5sSaHPkZk0g,UgxwLX4XJvQt1LnPR2B4AaABAg
+there is some issue while downloading apache airflow .It shows error .Anyone who came across it and resolved respond plz,@simu6315,2022-12-24T15:31:58Z,0,UCTcRTuHgb_kXf59POzA9OYA,Ugw-Peun-r58YzzMlgx4AaABAg
+Thank you for another great tutorial!!,@mehmetkaya4330,2022-12-21T04:57:44Z,0,UCPky1csVWUQYf7D9_0g9ZUA,UgxI_Y8DJi-yT-Nd_xl4AaABAg
+U can chekout  this channel for sql interview question and data engineering things https://youtube.com/playlist?list=PLkQcti0Ydt9gTjJ24M3otaUUJLWogeeI2,@aaravkumarsingh4018,2022-12-16T19:56:07Z,0,UC57oK1Ow59JezUnuNKQVSxA,UgwMurfODm5qJxjMM-p4AaABAg
+I am not able to generate Access key. Can I use your access keys?,@Anish61097,2022-12-15T11:15:32Z,0,UC8hLbz28eFmVnHSm9aOj8Og,Ugwq4pODf8gD9J2zAGB4AaABAg
+"I started doing this project,  but unable to start airflow using command ""airflow standalone""",@hemasaimanikantahemasaiman4014,2022-12-15T07:36:36Z,0,UCIvze-nGj29ZK_CcbTG2FRw,UgzRngmNdj1P7jRBjhJ4AaABAg
+"Thank you for the great content!
+I just have a question. I'm trying to run Airflow locally on my machine by using Ubuntu to extract tweets from Twitter with Twint library and load it to BigQuery. However, when I copied the dag scripts and the ETL scripts to Airflow folders in Ubuntu and try to load the dag it seems like it fails because Airflow doesn't have access to packages and modules installed locally (e.g. Twint). What do you recommend in this case?",@ABDA-zk5sm,2022-12-13T14:09:10Z,2,UCTMRV79muYWIZUzSxlDGWkQ,UgxDHQeax679BACxpJp4AaABAg
+"Hi darshil, 
+I have followed your tutorial but I face this error ""An error occurred (AccessDenied) when calling the PutObject operation: No AWSAccessKey was presented."". I have google it and try some solutions but they all don't work. what should I do? can you help me?",@kanui3618,2022-12-12T09:01:24Z,0,UCrD49BPVMjH9F0s3iUcdYPg,Ugy9FbDPgt29_KxTjUl4AaABAg
+As usual very nice content and appreciate your effort. If you could make a video with OOPs approach and include some test cases that will be really great.,@mirirshadali33,2022-12-10T17:28:27Z,4,UCUoTummbENLzJkCnhzsWuFw,UgwXuKKinPU7bNeEUPV4AaABAg
+i m elder than u.. but u r an inspiration bro... i m new to data engineering..,@sujeetnair1748,2022-12-05T15:30:46Z,0,UCliif22S7dA1VpUWroC9B4g,UgxTbNeemNkgDdHrrYZ4AaABAg
+In data engineering community you are the GEM. Thanks from the bottom of my heart Darshil. Keep growing keep inspiring.,@ANKITKUMAR-nv8ur,2022-12-04T19:29:47Z,24,UConkp4QEovVNh4JRbyhcPMQ,UgxkWK55rmCBVDX0ZGd4AaABAg
+Very informative👍,@manisha4130,2022-12-04T07:03:16Z,0,UC5hlafNsGI7nYoisdElyPSg,UgxzzoJ_85B5kc9uG894AaABAg
+"this is awsome !
+can't wait for the next data engineering projects, darshil🔥
+greetings from indonesia",@kanui3618,2022-11-28T16:18:17Z,0,UCrD49BPVMjH9F0s3iUcdYPg,Ugy2hex0auTcwQPtCXF4AaABAg
+"Hi
+When I'm calling my python script in DAG code it's throwing import error. I'm not sure why, can anyone help here?",@mohammedasif4349,2022-11-27T10:09:09Z,0,UCpOcw5aYcdfhFxnM6USFFxA,UgwjJ9VkroLwvnTIZdx4AaABAg
+can we add this project in resume  for 1 year of experience person in python and sql but not in data engineering,@swapnilpatil8592,2022-11-26T13:04:24Z,0,UCQnFXSXpWN1ugJG-0t9SjVQ,Ugy8aRGaJ4TuwQH36ah4AaABAg
+"thanks, very helpful video",@kunalberry5776,2022-11-26T10:45:18Z,0,UCv5WMjrdYCW05WM0z6oCvvA,UgwV7-MXfN1nBdrTvKN4AaABAg
+how to share this project to github or sth please,@duytran6178,2022-11-23T19:45:37Z,0,UCQQIabVUb7x-zNxxlQHd2aQ,Ugyd0dE8kw2UGiiHJYB4AaABAg
+"Darshil, amazing! I do not have words to say thank yoU!",@gabrielfds3461,2022-11-23T19:35:41Z,0,UCZLdxi04noaS9dPAKQZOD1w,Ugwoo653iTkFxXpCyOl4AaABAg
+"Really love the content darshil.
+Very precise explanation.",@kirankv1956,2022-11-22T18:41:09Z,0,UCRvx-FtqJH961a2xd-cn9GA,Ugwrc68nVroN4uOwdMB4AaABAg
+enjoyed the process! took me more than 12 hours to do this lol with all the trouble shooting and error fixing!,@marchanselthomas,2022-11-20T00:25:32Z,0,UCkCC4Y4H8zWQQAUC1Jk9eJA,Ugwt7cXz83yMIxeR6AF4AaABAg
+Have you ever used Argo in place of Airflow?,@ash3rr,2022-11-19T12:05:59Z,0,UC67NLic0KrWzEIuiDqdXnHg,Ugw2ewCGmPXIFRBemj54AaABAg
+Awesome! Thanks for sharing it!,@rajivjani8594,2022-11-18T21:37:01Z,0,UCVSU1Ns9wOvCrkYtH2j6bhA,UgxQZH5_aaB2FIVXDi94AaABAg
+"I am getting this error 
+
+You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal.
+
+
+any solution?",@Assassinscreed_in,2022-11-18T14:57:40Z,0,UC3zjaylnDF8OxqBTe4xpbKw,UgxEddaMAI4XYDXNTBF4AaABAg
+I really appreciate the effort and simplicity..! I was looking for actual content like this ... Thank you Darshil 😇,@gopi10aug,2022-11-15T07:13:34Z,0,UCxNmbbdzdfhXePSzIQvjnVA,UgxzfNVJZ6Ub3ZB2dCx4AaABAg
+God bless you man,@lakshaychopra,2022-11-15T04:47:25Z,0,UCaanrTMv9ZkdDiuy-1k1-Yg,UgyeMYnMsEMuXoE_ZKl4AaABAg
+Any particular reason of using an EC2 instance? Can we just run Airflow on our local machine?,@thisisrohan,2022-11-10T01:17:02Z,0,UCW0d4SCCYP8chj3HKPkWw2g,UgyEl7bQ2Vp_EUogcfZ4AaABAg
+Sir one request can you please made end to end project using airflow like you tube data analysis,@shubhampatil-xx5qq,2022-11-08T18:48:56Z,0,UCYwjS6X5w6J5il58jpmwdkA,UgxiQp-6eFNcCGPTLJR4AaABAg
+Thank you soo much darshil sir❤,@shubhampatil-xx5qq,2022-11-08T18:47:17Z,0,UCYwjS6X5w6J5il58jpmwdkA,UgwcbQW6fKNAIpWjByt4AaABAg
+Keep up the good work! Your project is the best. Greetings from Chile 😁,@aaosoto,2022-11-08T00:48:06Z,0,UC54eunXg9ZUThnaZiMjb59g,UgyglbTBZSdAP2R6enJ4AaABAg
+precise and clear content. Amazing,@AmitSharma-mv5xe,2022-11-03T22:10:55Z,0,UC3zor-823BvBwekggstKlyA,UgySe3wmdbHBDYdkFph4AaABAg
+"Thanks for sharing  dude ...
+I was trying to do the same thing that you did but is show me the error :you currently have essential  access for v2 but for this end point  you will have apply for elevated access vai devloper portal  could you please  help",@rahulkakade1579,2022-11-03T06:07:16Z,0,UCmaJGu0Mfx6Wn_fCz19uCkQ,UgztjcQrmETA1sRTH394AaABAg
+Great Video Darshil. Keep up the Good Work :),@jashanbansal2613,2022-11-03T04:37:12Z,0,UCpyikwHpP4kzsFuMgM6_ObQ,Ugx0P0O3VlbxdntKtCx4AaABAg
+"I came here seeing your LinkedIn post with comments,Being a fresher I was struggling for a project. This is Absolutely what I was looking for. Just Awsome. Thank you so much for your time and efforts.",@harikakalugotla1123,2022-11-02T16:13:13Z,0,UCpYEsGomzZ9dNDdfCnN0oCQ,Ugwyz5WPLpcFhHAwDMh4AaABAg
+"i am facing one issue, when running ""airflow standlone"" command on ec2 , my airflow server is stuck on ""Triggerer""",@dharmendragurjar5386,2022-11-01T09:51:49Z,0,UCwMmpC6x26AIcnm8TpvP4TQ,UgxavkL3U1cP9L_79DR4AaABAg
+can i add this in my resume?,@simu6315,2022-10-24T08:41:42Z,0,UCTcRTuHgb_kXf59POzA9OYA,UgzsFF_qzSY_GOJY8iJ4AaABAg
+Thank you! thank you! thank you!,@ogissgi7441,2022-10-19T16:31:08Z,2,UCNBKbXC2dYZxb5S5Tph4xNw,Ugy2A5RAeSISwPVmUSd4AaABAg
+"Getting the following error while trying to run the ssh  example command on my terminal - Load key ""keyname.pem"": Operation not permitted
+getting "" Permission denied (publickey)."" as well. I have changed the directory to the folder where my key is stored still no able to. I followed every step carefully. Anybody could help?",@paulshobhik,2022-10-19T15:40:29Z,0,UCjD3Ydzv_-B6qqsMA4JEfXg,UgwCEPOstor6xgnQmh54AaABAg
+for EC2 we need to pay AWS ? becasue during registration they are asking me card details. Is it okay?,@paulshobhik,2022-10-18T08:25:13Z,0,UCjD3Ydzv_-B6qqsMA4JEfXg,Ugy4vWxNs63CLfYPNVp4AaABAg
+"for tweet in tweets:
+text = tweet._json[""full_text""]
+
+why this? what does the ""full_text"" signify?",@paulshobhik,2022-10-18T08:14:44Z,0,UCjD3Ydzv_-B6qqsMA4JEfXg,UgxVjXcFC_noTtlZRzN4AaABAg
+"Hi Darshal, good stuff, you should make a video for dbt i'm trying forever to connect it to bigquery and learn how to use things.",@theamithsingh,2022-10-11T19:47:31Z,0,UCYlOlHwQiN8a4Ut241SpCWg,Ugwu6XnVbXA8fQh99RJ4AaABAg
+Thank you so much for great content. i want to ask if i neend more columns from json data how can i know what are the keys and their associated values in json and under which key of json. How can i refine it. Thank you,@imransadiq5851,2022-10-11T13:03:53Z,0,UC150aQiyy7vi0CpJjisbNLQ,UgxqBNXXsFxyy8nOY4Z4AaABAg
+t2 micro instance (free tier) is not working most probably because it has only 1 cpu.,@praveentoppo5339,2022-10-10T17:21:26Z,0,UCUUZ95SFb8M4Msye0bxbBeA,UgyUU-gsJM4_1E-BbDN4AaABAg
+Good job mate. I thoroughly enjoy the video. Thank you.,@iamdare,2022-10-06T20:48:57Z,0,UCJw9gwMZHlKEzF4dFHIONdg,Ugw9jI0cC4edkyBQyIN4AaABAg
+Thanks for this content,@barutistudio1397,2022-10-05T20:59:34Z,0,UCKQ7fmR6ki2FbVh4E8UPgJA,Ugyxl11yGyPbW2cVMrl4AaABAg
+is that the same way we can store the csv file to gcp cloud storage?,@keyursolanki,2022-10-05T17:26:29Z,0,UC1uZ5-OtnAPYvgXsmwfbB3Q,Ugx2-7stHfN6pZchDyF4AaABAg
+This video is worth more than paid content on many websites.Thanks for such content.,@kanduladivya5804,2022-10-03T02:15:46Z,1,UCzf-f3LTrk-7F4CKL08BA6Q,UgyG51Hk4tjPFRKXxIl4AaABAg
+I dоwnloaded everything is okay,@jaydudhatra7129,2022-10-02T07:38:26Z,0,UC7hdFqbrS67OGISXCqSYBig,UgzhkVNxwaBiU0_ZhBF4AaABAg
+You need to elevate your API Access from essential to elevated,@commenterdek3241,2022-10-02T06:48:59Z,0,UCCKEsZYpVe8oqdIUP0Yt9Jw,Ugzch02x9RsB-88Cget4AaABAg
+"Please keep on bringing content like this it will be really helpful for freshers who want to understand, gain knowledge and shape their career in Data engineering🙏.",@nomadicengineer22,2022-09-30T19:18:43Z,5,UCjIwtqzIcujoqq6JFIayaIg,UgzN7t7Mpr79YW8ROzp4AaABAg
+"thank you very much for this content sir, please help me
+
+I have got ""ERROR - Triggerer's async thread was blocked for ... seconds, likely by a badly-written trigger. Set PYTHONASYNCIODEBUG=1 to get more information on overrunning coroutines."" while running airflow standalone",@rizbasamalah5326,2022-09-30T09:52:58Z,0,UCcNYEJzPyWoq1SJ8eYcBpbA,UgyqCGpUj097kfJnZ-14AaABAg
+"Thanks sir, I learn a lot following this project guide. I understand more about how to use tweepy, AWS services and airflow by following this tutorial. I hope you always have a nice day.",@tassamoo,2022-09-29T07:47:43Z,2,UCxolzqGTrOiiWIbT_ZehIJg,UgyMD8S2UtT9UicCU094AaABAg
+"great video however you say ""particular"" way too many times....kind of gets annoying",@nazilnoorani4066,2022-09-29T00:14:41Z,0,UCzistWVL021vWUyfjOEG-kA,UgyyaPPaMTylr8xRCjR4AaABAg
+This is really Amazing Darshil. I would also like to see Architecture level videos and how all tools all integrated into the cluster.,@harshalrana1336,2022-09-28T14:02:18Z,1,UCj124O39zHjXxKitsXVM97A,Ugx9gsMcKwEUZYcGy9F4AaABAg
+I'm not getting output when executing the python script,@awscloud1460,2022-09-27T14:48:56Z,0,UCDIrnXiYiv6G3CBC5-TT4cQ,UgzZaEAvZGWL8wLr8pJ4AaABAg
+Darshillllllll this is Gold. I literally love you rn 😭,@pearlr.2411,2022-09-26T07:28:31Z,0,UCVuEO5rCvAGDSpVTGQvBUmA,UgxhRLdZ_NOPNtpbJg14AaABAg
+Thanks for sharing this,@hrsh3329,2022-09-25T20:23:02Z,0,UCyXKZxnBRvsrRJ24yB9-28w,Ugwk-q4JsPbiI5IfXiB4AaABAg
+"Here airflow is running on single instance, if load increase it may fail right !. And do we have any tool like Azure Adf?",@Ravi-gu5ww,2022-09-25T17:48:21Z,0,UC9Nmx98r31c1gJ49cefpzsQ,Ugz8ZVU08QoS2mYf-rx4AaABAg
+Please do a complete project based on  streaming data and transform the data using spark and orchestrate it using airflow and then store it cloud or any database.,@lokeswarnaidu2398,2022-09-25T16:31:27Z,3,UCGsKMNuamVjK9kVG5Th761w,UgyMw_ItOsdn9QtN8il4AaABAg
+BHAI ZRA HINDI ME VIDEO BANAYA KARO,@farhankhan-wn9zo,2022-09-25T13:46:42Z,0,UCoBpvbMVQl5n4u7j2ZnhUbg,UgyZIdFZlWEIv5XniDF4AaABAg
+"Hi I've sent to u a message , plz read it !",@chihebmhamdi459,2022-09-25T12:30:02Z,0,UCMQJkzT2-lqqxzemms10Kbg,UgzBSJkR1HVr3SK5M7p4AaABAg
+can't connect to airflow. After writing airflow standalone it doesn't show password,@rishavsingh7723,2022-09-25T11:27:30Z,0,UCel5tlC7rlK-XVs1vOkHgXQ,UgxizVyQrzETXX0pXJt4AaABAg
+"Hey Darshil, Brother i am an experienced professional working with ETL(so i have good understanding on SQL and RDBMS) since 8 years, I have learned myself python & Tableau and also i have done 5-6 projects on Data-Analysis but i am still not very sure if i should look to switch my career to Data-Analyst or to an Data Engineer. 
+After watching your old videos now i feel that i can more relate with Data Engineer than a Data Analyst according to my skill-set.
+Any suggestions Brother ?",@dharmendragurjar5386,2022-09-25T11:18:21Z,0,UCwMmpC6x26AIcnm8TpvP4TQ,UgyOxa1BdfWqiycUmBB4AaABAg
+For more on Azure DevOps: https://www.youtube.com/channel/UCIHRqMTGXSdVw0CCYyFH1Hg,@RajeshKumar-of8bz,2022-09-25T10:58:43Z,0,UCJNIsmxPXO2STwTgW-O97Fg,Ugwh-TK9COmxxePETEh4AaABAg
+This is gold,@midhileshmomidi3120,2022-09-23T15:15:57Z,0,UCfMJ58shm0BydDgM5yOo7aw,Ugw3aekTkG7t7ykXT2F4AaABAg
+amazing as usual,@marionagi2914,2022-09-23T12:26:36Z,0,UCKEdy8U8gPXOEHeOzcCfM-Q,UgxO4Q0wi6Lv1Y7eAnx4AaABAg
+Bang you earn my subscription with bell icon,@anwarzeb9147,2022-09-23T08:39:11Z,0,UCdRN4sudQ_-oZ74sX4D8Hqw,UgwbvnW3zf6J_1v8DU94AaABAg
+Excellent job Darshil.,@gomes8335,2022-09-23T04:14:04Z,2,UCH90NFKrtPZsyUrYVoEIUcQ,UgwY-Cfk9ujdWBXVvdB4AaABAg
+"Hi Darshil, Thank you for this .It was a great learning experience and it was fun too !  😛.I am eagerly waiting for more such videos on airflow",@raimanisha5197,2022-09-22T16:25:36Z,1,UCGXTA_Qjav0s0CJ7nZoMjFA,Ugww4UB9ZtE96TMwN5V4AaABAg
+"Instead of forcing the airflow webserver to stop, you can just try resetting DB in a different terminal and it will work too.",@siddheshkalgaonkar2752,2022-09-22T14:11:24Z,0,UCdTngObri7e6-w-edxvscnw,UgzwNLknyyO6NvgFXax4AaABAg
+"453 - You currently have Essential access which includes access to Twitter API v2 endpoints only. 
+
+I am  getting this error while trying to fetch tweets from api",@harshgautam616,2022-09-22T14:06:18Z,0,UChOAS5wM1kJ5rBdpztSO1cw,UgwUU2jDOKtynvQahD54AaABAg
+thank you for this project,@aoffyclub,2022-09-22T11:54:43Z,0,UCaoJiytUhd6tDqICJy6xONw,UgzN52rMoRQFwAAmNwF4AaABAg
+"You always continue to be great asset in data engineering content, thanks again!",@eternal2187,2022-09-22T08:07:16Z,1,UC7M1Y_ss7weMtDs0Ze5eT6A,UgyAVDEOBdd8aIkrQwJ4AaABAg
+Thank you👍 for the awesome content We want more data engineering real world end to end project with real time streaming to deal with real world problem and situation.,@abegpatel5300,2022-09-22T05:32:02Z,1,UCs21JyPJrPky2uOfx2xym6Q,UgxbCaHJX2kiEblX2g54AaABAg
+How to create access keys??,@syedmohammadbilal4570,2022-09-21T20:16:36Z,0,UCnuBU3aJvWhaWSjyzXbnYDw,Ugy4leOyUwemjJ6JfwN4AaABAg
+"At first, I tried on AWS Ubuntu t2.micro to run airflow - Gave error(Didnot execute Airflow Standalone)
+But Later, I tried t3.medium, It worked well. Thanks for the video!",@raghavaraosunkanapally7419,2022-09-21T17:52:51Z,2,UCH5UkXQ9eJOSeGMbkibQJRA,Ugwx1MHYNve3LuDz8md4AaABAg
+"Great explanation. Thanks, Darshil! 😊",@mangeshgawali7683,2022-09-21T12:23:24Z,0,UCHrL_9tN30IqabLKY70-xKg,UgyTXpdti8s7KVP2x0x4AaABAg
+Awesome sir...... That's what I actually want...,@santoshchavan1929,2022-09-21T10:08:03Z,0,UCohaRDJ37PoGT9aggL5y9rg,UgxamKsxBXAR0mNo6jh4AaABAg
+Hey bro always liked your video !! do create more project based Data Engineering Videos. Would be nice if you would create something that will teach about docker.,@mohammadtanvirhossain5576,2022-09-21T08:06:43Z,1,UChtbviFJ0QTdubqXWUR9y9A,Ugyqnb4ojkVZmXJ8LEt4AaABAg
+"Wowww., Wonderful explanation.., never before ever after...
+True master for Big Data  ,🙂Darshil",@PrincessNaveena,2022-09-21T05:04:40Z,3,UCvm5cB3J2f9FpIG26HsuGEQ,UgzQjP3gKJKNX4jpNrN4AaABAg
+Thanks and keep doing more... Please also make python part 2 ..,@vidyanishok7735,2022-09-21T04:05:56Z,0,UC1AM2_fcteKBPGkVPWVwGKA,UgyML2BQ-OT2gZdCpGV4AaABAg
+"cool man, just what I needed",@rolinejohnaguilar5272,2022-09-21T02:38:18Z,0,UCY2FA5VCSLEm3D_MvPTrGLg,UgzUcRFx2BUG0bfRQSl4AaABAg
+"Very good Darshil, keep the good work, cheers from Brasil.",@Lucaslopes-yf7ey,2022-09-21T02:18:58Z,0,UCM8pgHBTixH0sl1IACstBrg,Ugxdy65HYstSdyePOxN4AaABAg
+"Hi Darshil!
+One small question. Sorry it's not related to DE but ETL.
+Do I need know ETL for a data analyst jobs in India ?
+I have looked Job desctiption of data analyst jobs in India and the US & I saw this pattern of ""requiring knowledge of ETL & Data Warehouse"" in most DA jobs in India where as DA jobs in the US have least number of requirements.
+
+I don't know what is the ground reality of Data Analyst jobs in India but things like those make me scare away from applying to DA jobs in the country until I get ETL knowledge(my brain tells me that). Now I don't know heck about ETL because my professional Certification did not cover ETL so I am unable to freely apply for jobs and feel chained due to not knowing that one ETL technology.
+Thank you if you could help.",@vivekjoshi3769,2022-09-21T01:48:31Z,0,UCQoplqNqdu8TKeJZVZ-e9aw,Ugx3ycROci_UAU894Gx4AaABAg
+Thanks!,@ramgurung7752,2022-09-21T00:47:15Z,0,UCUhy1fpO0Lits6x5egVMDSQ,UgyQ3LKGZpwlBxxErs94AaABAg
+Love the way you have explained things. Loads of success to you😇,@keyursolanki,2022-09-20T23:45:14Z,1,UC1uZ5-OtnAPYvgXsmwfbB3Q,UgzjfvNbvgGkkLGYKLN4AaABAg
+THANK YOU SO MUCH FOR SUCHA  QUALITY CONTENT ......GOD BLESS YOU,@partabparmar5537,2022-09-20T20:06:54Z,0,UCE0MNPl2Mn8ke4QJ9m3oD-A,UgyyRDQ3Mdk0q3aQhxJ4AaABAg
+Great explanation! Will try to replicate in GCP,@khushahmed97,2022-09-20T19:53:58Z,2,UCyStbZPAgFV7h8AkZjQYL4g,UgwW8EdY4IokO1IFjiF4AaABAg
+Please take out time and create deeper conceptual projects like this. If possible please provide real time scenario based projects. We will be really interested to get further depth. This one is awesome!!,@aritra1414,2022-09-20T19:26:30Z,8,UCgfMBClw_LLri5nxIjW-UoQ,UgwvfvRT_o2npKkaf3h4AaABAg
+mai ye begining karna chahtu  hu par  muze aws nhi ata aur Apache bhi nhi,@rohankupate5917,2022-09-20T17:28:01Z,0,UCYuO2FMZ_MBraUDd_K4h3nw,UgzlmeWkTFiQKd3meE54AaABAg
+Thanks a lot ❤️,@Bhagwata_shlok,2022-09-20T16:44:13Z,0,UC66XZ9KkmjajeAb0OqhNMwA,UgwIXg3p0qf-scTdoLt4AaABAg
+"Hi Darshil I have this error following your code: 
+
+453 - You currently have Essential access which includes access to Twitter API v2 endpoints only. If you need access to this endpoint, you’ll need to apply for Elevated access via the Developer Portal
+Thanks in advance",@arielcarambula5061,2022-09-20T16:24:31Z,3,UC_6Zg7YwG24lRV2aZeFy2UQ,Ugw062DUys2LzG6EbDx4AaABAg
+"Hii darshil
+Could you tell that will there be a job of data engineering in web 3.0 or not because data will be decentralised in web 3.0",@meetpatel9690,2022-09-20T16:15:40Z,0,UCLNxoYDCoWuXGxWFZm98CeQ,UgzxpEs0cLKvbw5DSGt4AaABAg
+Thanks Darshil for the project ! Loved it ! Can you suggest topics/ideas for more projects so that we can do it on our own ?,@muleyshubham,2022-09-20T16:13:39Z,0,UC9I8q1M0yW1qoOz2HLGrZJA,UgxAtpiXoVFLydVetEB4AaABAg
+My sincere thanks to your efforts for contributing these kind of real time scenario based use case examples. 🙏,@venkatah9847,2022-09-20T15:55:12Z,14,UCkSY8jhedagFoTnSznADAPQ,UgxU6dWNYLvzEbA49bV4AaABAg
+Very knowledgeable,@arnavroy5663,2022-09-20T15:50:01Z,0,UCmpBvYGKKkx0OJIn21Ml2DA,UgxQ4WVOMWAfSDXQaGB4AaABAg
+"Hi Darshil, what's the pre requisite for this content. Any cloud or prior knowledge is required?",@same95ful,2022-09-20T15:26:24Z,0,UCbPBE07bul9JK383TNrnF3g,Ugw5SGsiaGZzGYmbi1d4AaABAg
+Very good! Make more of such videos.,@mesumrazahemani3163,2022-09-20T15:18:06Z,0,UCxZVmNUVnQqIoU9Nr0sQc7A,UgxUwF3snzCaiQuyThN4AaABAg
+"Best content ever..👍
+So nice of you..
+Really want more such Projects..",@abhijeetpradhan143,2022-09-20T15:11:44Z,0,UCnWHL9vZ7onJOefIPi0mzgw,Ugx2OCPMTKa0Q1Ld3254AaABAg
+Plz make a data engineering course.,@negidheerendra1,2022-09-20T15:09:39Z,0,UCkkz4mx3tD8lwK9gDJsK_bw,Ugy8mMLEbTA_yPCRC754AaABAg
+Please keep making more videos like this!,@payday_1150,2022-09-20T15:09:11Z,2,UCD2U2ZEvPCORWHg3MZn7XjA,UgwVM4TLuvC9tgIVgoR4AaABAg
+"Great darshil this is really helpful video
+Thank you.. keep uploading content like this please",@tejasborkar5917,2022-09-20T14:49:31Z,0,UCHKAV1rbVgQ50zdwS1I9Y1w,UgwEdFqhjYJG13NmdbR4AaABAg
+This is amazing. Thank you! I have a question. Can we call extracting Twitter data as web scrapping?,@shashankemani1609,2022-09-20T14:47:53Z,0,UCX2Qc2I6kPkyH2iyK5Ta7Iw,UgzpaQfcxrz31RVllyJ4AaABAg
+Thanks,@ridercomrade4562,2022-09-20T14:31:31Z,0,UCjdxZD2yvN6uwjHBWHjAJyQ,UgwJQRWioJMDIrAkTeV4AaABAg
+Really Appreciate your efforts to the Data Community you are doing a great job. Thank you ❤️,@abdulrazakshaik1128,2022-09-20T14:17:32Z,4,UCZL5UrwxShq2HHtEaDpR1xQ,UgxfNsHdzZY8ykM6XNh4AaABAg
+Eagerly waiting for this project. Thank you darshil for such amazing projects...,@jitendraparihar56,2022-09-20T14:03:25Z,0,UCXn08GP47LPgqE8nfefqt8Q,UgxOVUCrC_9nZSd-8e14AaABAg
+Make more and more projects.,@shivanshpratap,2022-09-20T13:23:03Z,0,UCqF2poYyV1q4BEg-ewbfDyQ,Ugy_Rx-985_LQHBr3Xl4AaABAg
+this is what is called content and actual do something for community ..rather than just doing faltu things...thank u so much Darshil ❤️,@sumantaghosh9299,2022-09-20T13:16:19Z,146,UCautXkTD8Uf4PCbsemH5r1g,UgyjwXxH3FZuZgHVLYB4AaABAg
+Can airflow run on windows ?,@rakeshrout780,2022-09-20T13:15:41Z,0,UCtdMkQoWEdD26yVtVsOkuCg,UgwxUyNEXTAVJ9mcP0R4AaABAg
+Make more on airflow and end to end data pipeline. Great effort :),@shrikantpandey6401,2022-09-20T13:04:37Z,0,UCVkaMyi4AoAwmkeELOd_bNg,UgyDLyxM6c-uCwhTVNt4AaABAg
+Thank You Very Much for the project Darshil ❤️.  Could you recommend any laptop for doing end to end data engineering projects? I am very confused about it. Please help me with this. Thank You once again.,@himanshuchavan9160,2022-09-20T12:59:48Z,0,UCRAx_32ypm2-1EEJjD2aW1Q,UgyZEQCU_alqJELqo8B4AaABAg
+Please make a tutorial series on Airflow,@dev_manish,2022-09-20T12:58:46Z,1,UCiMTdYvYbLwruKUrLXrnccQ,UgzxDwowlasKIvuqD3d4AaABAg
+Thanks you... Waiting for this,@aarthi1163,2022-09-20T12:33:39Z,0,UCnTu2mXyo0Xa8URsF6zYM5w,UgzAOjlP_K_gsVIcaP94AaABAg
+Hey thanks man I've been eagerly waiting for this. Would now explore and learn!,@hritikapal683,2022-09-20T12:30:51Z,2,UCrqIHWeMZiVklUcvzKH7a5Q,UgwcJwo_9TvtTf9rsBt4AaABAg
+"Thanku darshil for making this project, please make this type of project on regular basis so that it will help us to enhance our skill",@aaravkumarsingh4018,2022-09-20T12:28:34Z,3,UC57oK1Ow59JezUnuNKQVSxA,UgyehtQepmvgCdCMkUN4AaABAg
+"this is perfect, thank you Darshil",@karangupta_DE,2022-09-20T12:17:55Z,0,UCNsg5POXoFEcwpGJtifBBJQ,UgzK-ior7scmwoiSSjl4AaABAg
+Thank you for everything it helps  me so much,@karthikprabhu416,2022-09-20T12:07:03Z,0,UCbqV2-JWCMLEA7rpa1Y0Hlg,Ugzpferj1qvxnvUNPP14AaABAg
+"EDIT:
+Elon Musk ruined the API part, you can use some other APIs
+
+Here's one of the subscriber built the same project using other APIs - https://chenmeiqiao.notion.site/How-I-Reach-Out-to-YouTubers-I-Like-As-A-Data-Engineer-c37bdddefde54c3789229ffa5a789432
+
+or you can use a static dataset from Kaggle and then use Airflow to process it
+https://www.kaggle.com/datasets/mmmarchetti/tweets-dataset
+
+FAQ:
+1. Twitter removed free access: It still has free access but with limits of requests you can make - https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api
+
+2. You need to request for V2 access: You will get an error but just by reading the doc you should be able to access Elevated Access
+
+
+Worked very hard for this project🤞
+Don’t forget to hit the like button and if you want to support my work you can join channel membership, it's only 59rs per month so that I can keep these content for free",@DarshilParmar,2022-09-20T12:06:19Z,80,UCChmJrVa8kDg05JfCmxpLRw,UgxvA-OXNOTSpB3ZwRp4AaABAg
